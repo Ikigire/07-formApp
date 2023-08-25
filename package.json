@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --o",
-    "del:docs": "del ./docs",
+    "del:docs": "del docs",
     "copy:dist": "copyfiles ./dist/*/* ./docs -f",
     "build": "ng build",
     "build:href": "ng build --base-href ./",
